@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*The boxes will collapse into each other into a single margin if a margin does not separate the boxes.*/
+.box1 {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fafafa;
+    vertical-align: top;
+}
+
+
+.box2 {
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #333;
+    background-color: #fafafa;
+    vertical-align: top;
+}
