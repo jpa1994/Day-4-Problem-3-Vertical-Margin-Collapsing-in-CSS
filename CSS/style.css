@@ -6,6 +6,7 @@
 .box1 {
     width: 200px;
     padding: 20px;
+    margin-bottom: 0px;
     border: 2px solid #333;
     background-color: #fafafa;
     vertical-align: top;
